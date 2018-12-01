@@ -2,6 +2,7 @@
 1.创建一个HelloController.java
 
 @RestController
+
 public class HelloController {
 
     @RequestMapping("/hello")
