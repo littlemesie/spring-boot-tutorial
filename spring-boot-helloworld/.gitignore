@@ -15,8 +15,11 @@
 *.iws
 *.iml
 *.ipr
-ta
-
+target/
+.mvn
+mvnw
+mvnw.cmd
+spring-boot-helloworld.iml
 
 ### NetBeans ###
 /nbproject/private/
