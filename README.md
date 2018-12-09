@@ -3,3 +3,5 @@
 
 [一、spring-boot配置文件解析](https://github.com/littlemesie/spring-boot-tutorial/tree/master/spring-boot-1-conf)
 
+[二、spring-boot Restful API](https://github.com/littlemesie/spring-boot-tutorial/tree/master/spring-boot-2-restful)
+
