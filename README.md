@@ -9,3 +9,5 @@
 
 [四、spring-boot中使用异步](https://github.com/littlemesie/spring-boot-tutorial/tree/master/spring-boot-4-async)
 
+[五、spring-boot中使用cache](https://github.com/littlemesie/spring-boot-tutorial/tree/master/spring-boot-5-cache)
+
