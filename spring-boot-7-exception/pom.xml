@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>cn.mesie</groupId>
-    <artifactId>spring-boot-7-scheduled</artifactId>
+    <artifactId>spring-boot-7-exception</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-boot-7-scheduled</name>
+    <name>spring-boot-7-exception</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
