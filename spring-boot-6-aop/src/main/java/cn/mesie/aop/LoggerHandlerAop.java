@@ -34,7 +34,7 @@ public class LoggerHandlerAop {
      * 1、匹配方法时，只能匹配到实现类，匹配到接口类不能成功
      * 2、匹配方法执行
      */
-    // 匹配cn.timebusker.service包及子包下的任何方法执行
+    // 匹配cn.mesie.service包及子包下的任何方法执行
     @Pointcut(value="execution(* cn.mesie.service.*.*(..))")
     public void log1() {
     }
@@ -59,7 +59,7 @@ public class LoggerHandlerAop {
     public void log5() {
     }
 
-    // 匹配任何返回值类型的cn.timebusker包及任何子包下的以add开头的参数为Strign类型的方法执行
+    // 匹配任何返回值类型的cn.mesie包及任何子包下的以add开头的参数为Strign类型的方法执行
     @Pointcut(value = "execution(* cn.mesie..add*(String))")
     public void log6() {
     }
