@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SpringBoot15KafkaApplicationTests {
+public class SpringBoot16MqApplicationTests {
 
     @Test
     public void contextLoads() {

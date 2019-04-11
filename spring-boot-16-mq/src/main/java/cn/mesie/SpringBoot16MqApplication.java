@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBoot15KafkaApplication {
+public class SpringBoot16MqApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBoot15KafkaApplication.class, args);
+        SpringApplication.run(SpringBoot16MqApplication.class, args);
     }
 
 }
