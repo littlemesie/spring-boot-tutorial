@@ -1,0 +1,20 @@
+server:
+  port: 80
+  servlet:
+    session:
+      timeout: 60
+
+#kafka 配置
+spring:
+  kafka:
+    consumer:
+      bootstrap-servers: 127.0.0.1:9092
+      enable-auto-commit: true
+      auto-commit-interval: 100
+      group-id: test
+
+    producer:
+      bootstrap-servers: 127.0.0.1:9092
+      retries: 0
+      batch-size: 4096
+      buffer-memory: 40960
